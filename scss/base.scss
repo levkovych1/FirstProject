@@ -1,0 +1,16 @@
+.container {
+    max-width: $maxWidthContainer;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: #E5E5E5;
+
+    @media (max-width: 330px){
+        & {
+            padding: 0 10px;
+        }
+     } 
+ }
+
+body {
+    color: $main;
+} 
